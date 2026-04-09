@@ -66,10 +66,15 @@ console.log(`${exibir}, Tamanho total da frase: ${exibir.length}`)
 */
 
 //Exercicio 9
-
+/*
 let frase6 = ask.question("Digite uma frase: ");
-let letra = ask.question("Digite uma letra: ");
-let letra2 = "*"
+let letra = ask.question("Digite uma letra: ").toUpperCase()
 
-console.log((frase6.toUpperCase()).replaceAll(letra, letra2))
+console.log((frase6.toUpperCase()).replaceAll(letra, "*"))
+*/
+//console.log((frase6.replaceAll(letra, "*")).toUpperCase())
+
+//cuidar no montar o console.log() pois e cuidar o replaceAll pois
+//a letra ou palavra for diferente da colocada na variavel o replaceAll
+//não ira trocar a letra ou palavra...
 
